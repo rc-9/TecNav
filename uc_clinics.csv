@@ -1,6 +1,6 @@
 branch_name,lat,lon,to_denver,to_edgewater,to_wheatridge,to_rino,to_lakewood,nearby_clinics
-denver,39.73906432357836,-104.98969659655802,0.0,5.1,6.3,2.0,8.0,"[('rino', 2.0), ('edgewater', 5.1), ('wheatridge', 6.3), ('lakewood', 8.0)]"
-edgewater,39.753954449845445,-105.06778796142915,5.0,0.0,2.0,7.7,4.4,"[('wheatridge', 2.0), ('lakewood', 4.4), ('denver', 5.0), ('rino', 7.7)]"
-wheatridge,39.76685732722651,-105.08198265044479,6.3,2.0,0.0,7.8,4.8,"[('edgewater', 2.0), ('lakewood', 4.8), ('denver', 6.3), ('rino', 7.8)]"
-rino,39.767327859566265,-104.98113186098168,1.9,7.8,7.5,0.0,10.7,"[('denver', 1.9), ('wheatridge', 7.5), ('edgewater', 7.8), ('lakewood', 10.7)]"
-lakewood,39.70455155721396,-105.0798829449297,7.5,4.3,12.0,11.0,0.0,"[('edgewater', 4.3), ('denver', 7.5), ('rino', 11.0), ('wheatridge', 12.0)]"
+denver,39.73906432357836,-104.98969659655802,0,12,14,7,14,"[('rino', 7.0), ('edgewater', 12.0), ('wheatridge', 14.0), ('lakewood', 14.0)]"
+edgewater,39.753954449845445,-105.06778796142915,14,0,5,12,9,"[('wheatridge', 5.0), ('lakewood', 9.0), ('rino', 12.0), ('denver', 14.0)]"
+wheatridge,39.76685732722651,-105.08198265044479,14,5,0,10,9,"[('edgewater', 5.0), ('lakewood', 9.0), ('rino', 10.0), ('denver', 14.0)]"
+rino,39.767327859566265,-104.98113186098168,6,14,14,0,14,"[('denver', 6.0), ('edgewater', 14.0), ('wheatridge', 14.0), ('lakewood', 14.0)]"
+lakewood,39.70455155721396,-105.0798829449297,12,8,8,12,0,"[('edgewater', 8.0), ('wheatridge', 8.0), ('denver', 12.0), ('rino', 12.0)]"
