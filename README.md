@@ -1,6 +1,6 @@
 # TecNav
 <p align="center">
-<b>TecNav is a Clinic-Monitoring & Technician-Navigation Application<\b>
+<b>TecNav is a Clinic-Monitoring & Technician-Navigation Application</b>
 </p>
 <p align="center">
   <img 
