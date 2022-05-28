@@ -1,6 +1,6 @@
-# TecNav
+# <p align="center"> TecNav
 <p align="center">
-<b>TecNav is a Clinic-Monitoring & Technician-Navigation Application</b>
+<b>Clinic-Monitoring & Technician-Navigation Application</b>
 </p>
 <p align="center">
   <img 
@@ -11,11 +11,8 @@
 </p>
 <p align="center">
 Romith Challa</b>
-<p align="center">
 Tomer Danon</b>
-<p align="center">
 Data Science Capstone</b>
-<p align="center">
 University of Denver</b>
 </p>
 
