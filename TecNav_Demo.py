@@ -183,4 +183,4 @@ plot_tech_needs(plot_specs[selected_loc][0], plot_specs[selected_loc][1])
 #######################################
 
 # IN COMMAND LINE, NAVIGATE TO PROJECT DIRECTORY AND EXECUTE:
-# streamlit run 5_visualizer.py
+# streamlit run TecNav_Demo.py
