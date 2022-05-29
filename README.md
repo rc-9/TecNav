@@ -12,6 +12,7 @@
 
 
 <h1 align="center">TecNav</h1>
+<h3 align="center">Clinic-Monitoring & Technician-Navigation Application</h3>
   <p align="center">
     University of Denver - Data Science Capstone
     <br />
