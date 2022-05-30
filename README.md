@@ -113,16 +113,3 @@ Data Science Capstone | Ritchie School of Engineering & Computer Science | Unive
 [issues-shield]: https://img.shields.io/github/issues/rc-9/TecNav.svg?style=for-the-badge
 [issues-url]: https://github.com/rc-9/TecNav/issues
 
-
-
-
-
-
-
-
-
-
-
-
-
-
