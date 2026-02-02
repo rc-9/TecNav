@@ -12,9 +12,9 @@
 
 
 <h1 align="center">TecNav</h1>
-<h3 align="center">Clinic-Monitoring & Technician-Navigation Application</h3>
+<h3 align="center"> Urgent-Care Technician Navigation System</h3>
   <p align="center">
-    University of Denver - Data Science Capstone
+    University of Denver - Data Science Capstone 2022
     <br />
     Tomer Danon & Romith Challa
     <br />
@@ -34,7 +34,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#project-overview">Project Overview</a>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -43,7 +43,9 @@
 
 
 
-## About The Project
+## Project Overview
+
+#### Problem Context
 
 According to a 2019 benchmark report from the Urgent Care Association, the number of urgent-care clinics increased by 9.6% from the previous year. 
 As the pandemic continues to put a strain on the healthcare system, the appeal for convenient and affordable care-outlets is greater than ever. 
@@ -58,6 +60,100 @@ That is the motivation behind TecNav—an automated application that employs mac
 Based on the preliminary results of the prototype, TecNav can save clients over $90,000 for each clinic per year. 
 This could potentially finance their mission to expand clinical services, without burdening patients with higher costs. 
 Designed with an emphasis on translatability, TecNav’s algorithm is customizable to fit the needs of any potential client.
+<br/>
+
+#### Project Pipeline
+<br/>
+
+![Project Pipeline](utils/slide03_pipeline.png)
+
+To better organize a project of this scale, it was divided into two distinct phases to separate the
+data science workflow from the software engineering components. 
+
+
+PHASE I: 
+
+Due to privacy & security compliances, there are no publicly available datasets at the operational granularity required for this project. Therefore, Phase I focuses on generating synthetic urgent-care operational data using research-backed assumptions, domain expertise, personal clinical experience, and statistically constrained processes to approximate real-world patient flow dynamics. The generated datasets are then explored and engineered to support the construction and evaluation of machine learning models that serve as decision-makers within the software application of Phase II.
+
+PHASE II:
+
+The objective of Phase II is to design a strategic navigation algorithm and develop a robust decision-support software application. As part of a live demonstration, the system emulates a real-time data stream to evaluate its ability to make optimal navigation decisions under dynamic clinical conditions.
+
+<br/>
+
+#### Clinical Use-Case
+<br/>
+
+![Project Pipeline](utils/slide12_eda_variation.jpeg)
+
+Patient influx is characterized by multi-modal distributions with distinct peaks and troughs, driven by factors such as time of the day, day of the week, seasonal effects, clinic location, etc. This variability results in dynamic, time-dependent staffing requirements throughout day-to-day operations.
+
+<br/>
+
+#### Proposed Solution
+<br/>
+
+![Project Pipeline](utils/slide13_usecase.png)
+
+An application that continuously monitors the evolving needs of each clinic can automate technician navigation decisions without human supervision. By leveraging machine learning models to forecast the dynamic patient flow, the system optimizes clinical efficiencies and reduces operational costs, helping urgent care clinics preserve their position as affordable alternatives to emergency departments.
+
+<br/>
+
+
+#### Modeling
+<br/>
+
+![Project Pipeline](utils/slide15_arima.jpeg)
+
+Several machine-learning techniques were explored during the modeling stage to identify an effective forecasting approach for patient traffic flow, including tree-based ensemble methods (e.g., random forest) and time-series models (e.g., ARIMA). In ARIMA, the autoregressive ('AR') component models future values using past observations at specified time intervals, while the moving average ('MA') component accounts for past forecast errors by incorporating error terms from previous intervals into the regression equation.
+
+![Project Pipeline](utils/slide16_arima.jpeg)
+
+The goal of the modeling stage was to identify a clinically effective yet computationally efficient predictor suitable for deployment within the software algorithm. This achieved an RMSE below 0.8, which translates to a maximum potential prediction error of approximately one technician. This level of precision is sufficient to support staffing and navigation decisions without introducing meaningful clinical risk, while maintaining low computational overhead for continuous use within the application.
+
+<br/>
+
+
+#### Custom Algorithm: Decision-Tree
+<br/>
+
+![Project Pipeline](utils/slide17_algorithm.png)
+
+The TecNav algorithm serves as the decision-making core of the application. It continuously monitors clinic-level operational status and invokes machine learning forecasts only when navigation decisions are required. To ensure reliability under all operating conditions, the system is implemented as a strategic, decision-tree style algorithm that deterministically evaluates every possible transfer scenario.
+
+In contrast to manual navigation (where transfer decisions rely on subjective judgment or potentially biased experience), TecNav bases its actions on historical data learned through model training. The forecasting model can be periodically retrained to capture evolving patient-flow patterns and emerging clinical trends. When a technician becomes available, the algorithm evaluates whether they are predicted to be needed at their current clinic. If so, it proceeds to the next clinic in the availability queue. If no eligible transfers exist, the system records the outcome and takes no action. Otherwise, a transfer is initiated, internal state variables are updated, and the algorithm resets in preparation for the next patient arrival.
+
+<br/>
+
+
+
+#### DEMO: Prototype Application
+<br/>
+
+![Project Pipeline](utils/slide18_demo.jpeg)
+
+The prototype application showcases TecNav in action through a live, interactive dashboard. Users can  track real-time clinic activity (including new patient arrivals), and observe how the system optimizes staff allocation across multiple urgent care branches. This visual demo highlights the algorithm’s ability to dynamically respond to changing patient flow while maintaining operational efficiency.
+
+<br/>
+
+
+
+
+
+#### Results & Recommendations
+<br/>
+
+For an urgent-care chain with five branches, TecNav recommends scheduling five fewer technicians per day, relying on the automated system to cover gaps in demand across locations throughout the day.  
+
+On average, this requires 357 technician moves per month, with an estimated $3,168 in yearly gas reimbursements. However, these costs are offset by overall yearly operational savings of:
+
+#### <span style="color:green;">$91,980</span>\*
+
+\*Minus a small TecNav subscription fee ;-)
+
+
+<br/>
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -65,21 +161,19 @@ Designed with an emphasis on translatability, TecNav’s algorithm is customizab
 
 ## Usage
 
-This section outlines the order to execute notebooks to generate, explore, model the data, and build the software navigation application.
+This section outlines the order to execute notebooks to generate, explore, and model the data, as well as build the software navigation application.
 <br/> <br/>
 
-1. ```uc_data_fabricator.ipynb```: As there are no publicly-available datasets that fit the scope of this project, this notebook will execute a series of research-supported fabrication steps to generate datasets that emulate the real-world as much as possible. 
-**NOTE: This step is optional and can be skipped as the ```fabricated_data``` folder contains pre-generated datasets that will be used in the notebooks below.**
+1. ```uc_synthetic_data_simulator.ipynb```: As there are no publicly-available datasets that fit the scope of this project, this notebook generates synthetic urgent-care operational data using research-backed simulations, domain expertise, and statistically constrained processes to approximate real-world patient flow dynamics. 
 <br/> <br/>
 
-2. ```uc_eda.ipynb```: This notebook will explore the generated datasets to draw insights from the patient visits and any relationships between date/times to inform the modeling and navigation process. 
-**NOTE: Not all visual outputs are pre-loaded. For best visual output and to utilize the interactive toggle-menu for plots, execute this script in a Jupyter notebook (VS-Code does not fully support .ipynb interactive widgets).**
+2. ```uc_eda.ipynb```: This notebook explores the simulation data to draw insights from the patient visits and any relationships between dates and times to inform the modeling and navigation process. 
 <br/> <br/>
 
-3. ```uc_modeler.ipynb```: This notebook will construct and evaluate baseline models to help select a decision-maker within the navigation software.
+3. ```uc_modeler.ipynb```: This notebook constructs and evaluates baseline models to help select a decision-maker within the navigation software.
 <br/> <br/>
 
-4. ```uc_analysis.ipynb```: This notebook will implement technician-navigation to study the potential benefits in productivity and operational costs. 
+4. ```uc_analysis.ipynb```: This notebook implements the technician navigation process to study the potential benefits in productivity and operational costs. 
 This notebook utilizes ```uc_navigator.py``` and ```TecNav_Demo.py```.
 <br/> <br/>
 
@@ -103,7 +197,7 @@ This notebook utilizes ```uc_navigator.py``` and ```TecNav_Demo.py```.
 
 ## Acknowledgments
 
-Data Science Capstone | Ritchie School of Engineering & Computer Science | University of Denver
+Data Science Capstone 2022 | Ritchie School of Engineering & Computer Science | University of Denver
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
