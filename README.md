@@ -73,7 +73,7 @@ data science workflow from the software engineering components.
 
 PHASE I: 
 
-Due to privacy & security compliances, there are no publicly available datasets at the operational granularity required for this project. Therefore, Phase I focuses on generating synthetic urgent-care operational data using research-backed assumptions, domain expertise, personal clinical experience, and statistically constrained processes to approximate real-world patient flow dynamics. The generated datasets are then explored and engineered to support the construction and evaluation of machine learning models that serve as decision-makers within the software application of Phase II.
+Due to privacy & security compliances, there are no publicly available datasets at the operational granularity required for this project. Therefore, Phase I focuses on generating synthetic clinical records using research-backed assumptions, domain expertise, personal clinical experience, and statistically constrained processes to approximate real-world patient flow dynamics. The generated datasets are then explored and engineered to support the construction of ML models that serve as decision-makers within the software application of Phase II.
 
 PHASE II:
 
