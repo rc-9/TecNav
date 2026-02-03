@@ -158,19 +158,19 @@ On average, this requires 357 technician moves per month, with an estimated $3,1
 
 ## Usage
 
-This section outlines the order to execute notebooks to generate, explore, and model the data, as well as build the software navigation application.
+This section outlines the order of execution to generate data, analyze patient flow dynamics, train ML models, and deploy the navigation software application.
 <br/> <br/>
 
-1. ```uc_synthetic_data_simulator.ipynb```: As there are no publicly-available datasets that fit the scope of this project, this notebook generates synthetic urgent-care operational data using research-backed simulations, domain expertise, and statistically constrained processes to approximate real-world patient flow dynamics. 
+1. ```uc_synthetic_data_simulator.ipynb```: Generates synthetic operational data using research-backed simulations, domain expertise, and statistically constrained processes to approximate real-world patient flow dynamics. 
 <br/> <br/>
 
-2. ```uc_eda.ipynb```: This notebook explores the simulation data to draw insights from the patient visits and any relationships between dates and times to inform the modeling and navigation process. 
+2. ```uc_eda.ipynb```: Explores the simulation data to draw insights from the patient visits and analyze relationships between dates and times to inform the modeling and navigation process. 
 <br/> <br/>
 
-3. ```uc_modeler.ipynb```: This notebook constructs and evaluates baseline models to help select a decision-maker within the navigation software.
+3. ```uc_modeler.ipynb```: Constructs and evaluates baseline models to help select a decision-maker within the navigation software.
 <br/> <br/>
 
-4. ```uc_analysis.ipynb```: This notebook implements the technician navigation process to study the potential benefits in productivity and operational costs. 
+4. ```uc_analysis.ipynb```: Implements the technician navigation process to study the potential benefits in productivity and operational costs. 
 This notebook utilizes ```uc_navigator.py``` and ```TecNav_Demo.py```.
 <br/> <br/>
 
