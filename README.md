@@ -14,7 +14,7 @@
 <h1 align="center">TecNav</h1>
 <h3 align="center"> Urgent-Care Technician Navigation System</h3>
   <p align="center">
-    University of Denver - Data Science Capstone 2022
+    May 2022
     <br />
     Tomer Danon & Romith Challa
     <br />
@@ -37,7 +37,6 @@
       <a href="#project-overview">Project Overview</a>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -45,7 +44,7 @@
 
 ## Project Overview
 
-#### Problem Context
+### Problem Context
 
 According to a 2019 benchmark report from the Urgent Care Association, the number of urgent-care clinics increased by 9.6% from the previous year. 
 As the pandemic continues to put a strain on the healthcare system, the appeal for convenient and affordable care-outlets is greater than ever. 
@@ -62,7 +61,7 @@ This could potentially finance their mission to expand clinical services, withou
 Designed with an emphasis on translatability, TecNav’s algorithm is customizable to fit the needs of any potential client.
 <br/>
 
-#### Project Pipeline
+### Project Pipeline
 <br/>
 
 ![Project Pipeline](utils/slide03_pipeline.png)
@@ -81,7 +80,7 @@ The objective of Phase II is to design a strategic navigation algorithm and deve
 
 <br/>
 
-#### Clinical Use-Case
+### Clinical Use-Case
 <br/>
 
 ![Project Pipeline](utils/slide12_eda_variation.jpeg)
@@ -90,7 +89,7 @@ Patient influx is characterized by multi-modal distributions with distinct peaks
 
 <br/>
 
-#### Proposed Solution
+### Proposed Solution
 <br/>
 
 ![Project Pipeline](utils/slide13_usecase.png)
@@ -100,7 +99,7 @@ An application that continuously monitors the evolving needs of each clinic can 
 <br/>
 
 
-#### Modeling
+### Modeling
 <br/>
 
 ![Project Pipeline](utils/slide15_arima.jpeg)
@@ -114,7 +113,7 @@ The goal of the modeling stage was to identify a clinically effective yet comput
 <br/>
 
 
-#### Custom Algorithm: Decision-Tree
+### Custom Algorithm: Decision-Tree
 <br/>
 
 ![Project Pipeline](utils/slide17_algorithm.png)
@@ -127,7 +126,7 @@ In contrast to manual navigation (where transfer decisions rely on subjective ju
 
 
 
-#### DEMO: Prototype Application
+### DEMO: Prototype Application
 <br/>
 
 ![Project Pipeline](utils/slide18_demo.jpeg)
@@ -140,14 +139,14 @@ The prototype application showcases TecNav in action through a live, interactive
 
 
 
-#### Results & Recommendations
+### Results & Recommendations
 <br/>
 
 For an urgent-care chain with five branches, TecNav recommends scheduling five fewer technicians per day, relying on the automated system to cover gaps in demand across locations throughout the day.  
 
 On average, this requires 357 technician moves per month, with an estimated $3,168 in yearly gas reimbursements. However, these costs are offset by overall yearly operational savings of:
 
-#### <span style="color:green;">$91,980</span>\*
+### <span style="color:green;">$91,980</span>\*
 
 \*Minus a small TecNav subscription fee ;-)
 
@@ -195,11 +194,6 @@ This notebook utilizes ```uc_navigator.py``` and ```TecNav_Demo.py```.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-## Acknowledgments
-
-Data Science Capstone 2022 | Ritchie School of Engineering & Computer Science | University of Denver
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
