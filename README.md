@@ -14,8 +14,6 @@
 <h1 align="center">TecNav</h1>
 <h3 align="center"> Urgent-Care Technician Navigation System</h3>
   <p align="center">
-    May 2022
-    <br />
     Tomer Danon & Romith Challa
     <br />
     <br />
@@ -113,7 +111,7 @@ The goal of the modeling stage was to identify a clinically effective yet comput
 <br/>
 
 
-### Custom Algorithm: Decision-Tree
+### Custom Algorithm: Clinic Operations Decision-Tree
 <br/>
 
 ![Project Pipeline](utils/slide17_algorithm.png)
