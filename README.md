@@ -129,7 +129,7 @@ In contrast to manual navigation (where transfer decisions rely on subjective ju
 
 ![Project Pipeline](utils/slide18_demo.jpeg)
 
-The prototype application showcases TecNav in action through a live, interactive dashboard. Users can  track real-time clinic activity (including new patient arrivals), and observe how the system optimizes staff allocation across multiple urgent care branches. This visual demo highlights the algorithm’s ability to dynamically respond to changing patient flow while maintaining operational efficiency.
+The prototype application showcases TecNav in action through a live, interactive dashboard. Users can track real-time clinic activity (including new patient arrivals), and observe how the system optimizes staff allocation across multiple urgent care branches. This visual demo highlights the algorithm’s ability to dynamically respond to changing patient flow while maintaining operational efficiency.
 
 <br/>
 
