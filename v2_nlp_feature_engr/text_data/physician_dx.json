@@ -1,0 +1,238 @@
+{
+  "cold/flu/fever": {
+    "tests": [
+      "rapid influenza test",
+      "COVID-19 antigen test",
+      "COVID-19 PCR test",
+      "rapid strep test",
+      "basic vital sign assessment"
+    ],
+    "no_testing": [
+      "No diagnostic testing was performed"
+    ]
+  },
+
+  "covid-test": {
+    "tests": [
+      "COVID-19 antigen test",
+      "COVID-19 PCR test",
+      "pulse oximetry",
+      "basic vital sign assessment"
+    ],
+    "no_testing": []
+  },
+
+  "vaccination": {
+    "tests": [
+      "vaccine administration screening",
+      "vital signs assessment"
+    ],
+    "no_testing": []
+  },
+
+  "cough": {
+    "tests": [
+      "chest X-ray",
+      "COVID-19 antigen test",
+      "COVID-19 PCR test",
+      "rapid influenza test",
+      "pulse oximetry",
+      "lung auscultation"
+    ],
+    "no_testing": [
+      "No diagnostic testing was performed"
+    ]
+  },
+
+  "ear-pain": {
+    "tests": [
+      "otoscopic examination",
+      "hearing assessment"
+    ],
+    "no_testing": [
+      "No diagnostic testing was performed"
+    ]
+  },
+
+  "chest-pain": {
+    "tests": [
+      "12-lead ECG",
+      "chest X-ray",
+      "pulse oximetry",
+      "blood pressure assessment",
+      "blood glucose test",
+      "basic metabolic panel",
+      "cardiac enzyme testing"
+    ],
+    "no_testing": [
+      "No diagnostic testing was performed"
+    ]
+  },
+
+  "ache/pain": {
+    "tests": [
+      "physical examination",
+      "X-ray imaging",
+      "range of motion assessment"
+    ],
+    "no_testing": [
+      "No diagnostic testing was performed"
+    ]
+  },
+
+  "sore-throat": {
+    "tests": [
+      "rapid strep test",
+      "throat culture",
+      "COVID-19 antigen test",
+      "COVID-19 PCR test",
+      "physical examination"
+    ],
+    "no_testing": [
+      "No diagnostic testing was performed"
+    ]
+  },
+
+  "stomach-pain": {
+    "tests": [
+      "abdominal examination",
+      "urinalysis",
+      "pregnancy test",
+      "blood work",
+      "abdominal ultrasound"
+    ],
+    "no_testing": [
+      "No diagnostic testing was performed"
+    ]
+  },
+
+  "UTI": {
+    "tests": [
+      "urinalysis",
+      "urine culture",
+      "pregnancy test",
+      "bladder scan"
+    ],
+    "no_testing": [
+      "No diagnostic testing was performed"
+    ]
+  },
+
+  "lab-work": {
+    "tests": [
+      "complete blood count",
+      "basic metabolic panel",
+      "lipid panel",
+      "thyroid function test",
+      "hemoglobin A1C",
+      "blood glucose test"
+    ],
+    "no_testing": []
+  },
+
+  "drug-test": {
+    "tests": [
+      "urine drug screen",
+      "toxicology screening",
+      "specimen collection"
+    ],
+    "no_testing": []
+  },
+
+  "weakness/dizziness": {
+    "tests": [
+      "blood glucose test",
+      "orthostatic vital signs",
+      "ECG",
+      "complete blood count",
+      "basic metabolic panel",
+      "urinalysis"
+    ],
+    "no_testing": [
+      "No diagnostic testing was performed"
+    ]
+  },
+
+  "rash/allergy": {
+    "tests": [
+      "physical examination",
+      "allergy evaluation",
+      "skin examination"
+    ],
+    "no_testing": [
+      "No diagnostic testing was performed"
+    ]
+  },
+
+  "headache": {
+    "tests": [
+      "neurological examination",
+      "blood pressure assessment",
+      "COVID-19 test",
+      "CT head imaging"
+    ],
+    "no_testing": [
+      "No diagnostic testing was performed"
+    ]
+  },
+
+  "cuts/abscess": {
+    "tests": [
+      "wound examination",
+      "wound culture",
+      "X-ray imaging",
+      "foreign body evaluation"
+    ],
+    "no_testing": [
+      "No diagnostic testing was performed"
+    ]
+  },
+
+  "injury/accident": {
+    "tests": [
+      "X-ray imaging",
+      "physical examination",
+      "range of motion assessment",
+      "neurovascular assessment",
+      "CT imaging"
+    ],
+    "no_testing": [
+      "No diagnostic testing was performed"
+    ]
+  },
+
+  "physical": {
+    "tests": [
+      "vital signs assessment",
+      "vision screening",
+      "hearing screening",
+      "urinalysis",
+      "blood work"
+    ],
+    "no_testing": []
+  },
+
+  "diarrhea": {
+    "tests": [
+      "stool culture",
+      "stool pathogen panel",
+      "blood work",
+      "urinalysis",
+      "abdominal examination"
+    ],
+    "no_testing": [
+      "No diagnostic testing was performed"
+    ]
+  },
+
+  "pink-eye": {
+    "tests": [
+      "eye examination",
+      "visual acuity test",
+      "fluorescein eye staining"
+    ],
+    "no_testing": [
+      "No diagnostic testing was performed"
+    ]
+  }
+}

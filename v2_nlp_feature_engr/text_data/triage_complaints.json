@@ -1,0 +1,304 @@
+{
+  "cold/flu/fever": {
+    "primary": [
+      "cold symptoms",
+      "flu-like symptoms",
+      "fever",
+      "fever and chills",
+      "upper respiratory symptoms",
+      "feeling sick",
+      "body aches"
+    ],
+    "secondary": [
+      "cough",
+      "runny nose",
+      "nasal congestion",
+      "sore throat",
+      "fatigue",
+      "body aches",
+      "headache",
+      "chills",
+      "mild nausea",
+      "loss of appetite"
+    ]
+  },
+  "covid-test": {
+    "primary": [
+      "possible COVID exposure",
+      "possible COVID infection",
+      "COVID symptoms",
+      "COVID testing"
+    ],
+    "secondary": [
+      "cough",
+      "fever",
+      "loss of taste",
+      "loss of smell",
+      "sore throat",
+      "headache",
+      "fatigue",
+      "body aches",
+      "recent exposure to COVID-positive contact",
+      "no symptoms at this time"
+    ]
+  },
+  "vaccination": {
+    "primary": [
+      "vaccination",
+      "immunization",
+      "flu shot",
+      "routine vaccine"
+    ],
+    "secondary": [
+      "no current complaints",
+      "routine preventive visit",
+      "requested immunization"
+    ]
+  },
+  "cough": {
+    "primary": [
+      "persistent cough",
+      "dry cough",
+      "productive cough",
+      "cough"
+    ],
+    "secondary": [
+      "congestion",
+      "wheezing",
+      "shortness of breath",
+      "sore throat",
+      "chest tightness",
+      "fever",
+      "runny nose"
+    ]
+  },
+  "ear-pain": {
+    "primary": [
+      "ear pain",
+      "earache",
+      "left ear pain",
+      "right ear pain"
+    ],
+    "secondary": [
+      "decreased hearing",
+      "ear pressure",
+      "ear drainage",
+      "fever",
+      "sore throat",
+      "recent cold symptoms"
+    ]
+  },
+  "chest-pain": {
+    "primary": [
+      "chest pain",
+      "chest discomfort",
+      "chest pressure",
+      "tightness in chest"
+    ],
+    "secondary": [
+      "shortness of breath",
+      "pain with deep breathing",
+      "radiating pain",
+      "dizziness",
+      "nausea",
+      "palpitations",
+      "sweating"
+    ]
+  },
+  "ache/pain": {
+    "primary": [
+      "generalized pain",
+      "muscle pain",
+      "joint pain",
+      "body pain"
+    ],
+    "secondary": [
+      "stiffness",
+      "swelling",
+      "limited range of motion",
+      "pain with movement",
+      "fatigue"
+    ]
+  },
+  "sore-throat": {
+    "primary": [
+      "sore throat",
+      "throat pain",
+      "painful swallowing"
+    ],
+    "secondary": [
+      "difficulty swallowing",
+      "fever",
+      "swollen glands",
+      "cough",
+      "runny nose",
+      "hoarse voice"
+    ]
+  },
+  "stomach-pain": {
+    "primary": [
+      "abdominal pain",
+      "stomach pain",
+      "abdominal discomfort"
+    ],
+    "secondary": [
+      "nausea",
+      "vomiting",
+      "diarrhea",
+      "constipation",
+      "bloating",
+      "loss of appetite"
+    ]
+  },
+  "UTI": {
+    "primary": [
+      "possible urinary tract infection",
+      "painful urination",
+      "urinary symptoms"
+    ],
+    "secondary": [
+      "burning with urination",
+      "frequent urination",
+      "urgency",
+      "lower abdominal discomfort",
+      "blood in urine",
+      "back pain"
+    ]
+  },
+  "lab-work": {
+    "primary": [
+      "laboratory testing",
+      "blood work",
+      "ordered lab work"
+    ],
+    "secondary": [
+      "routine testing",
+      "follow-up labs",
+      "physician requested labs"
+    ]
+  },
+  "drug-test": {
+    "primary": [
+      "drug screening",
+      "employment drug test",
+      "urine drug screen"
+    ],
+    "secondary": [
+      "pre-employment screening",
+      "random screening",
+      "work clearance"
+    ]
+  },
+  "weakness/dizziness": {
+    "primary": [
+      "dizziness",
+      "lightheadedness",
+      "generalized weakness"
+    ],
+    "secondary": [
+      "fatigue",
+      "near syncope",
+      "headache",
+      "blurred vision",
+      "nausea"
+    ]
+  },
+  "rash/allergy": {
+    "primary": [
+      "skin rash",
+      "allergic reaction",
+      "itchy rash"
+    ],
+    "secondary": [
+      "itching",
+      "redness",
+      "hives",
+      "swelling",
+      "new medication exposure"
+    ]
+  },
+  "headache": {
+    "primary": [
+      "headache",
+      "migraine",
+      "head pain"
+    ],
+    "secondary": [
+      "nausea",
+      "light sensitivity",
+      "sound sensitivity",
+      "blurred vision",
+      "dizziness"
+    ]
+  },
+  "cuts/abscess": {
+    "primary": [
+      "laceration",
+      "cut",
+      "skin abscess",
+      "infected wound"
+    ],
+    "secondary": [
+      "bleeding",
+      "swelling",
+      "drainage",
+      "pain",
+      "redness"
+    ]
+  },
+  "injury/accident": {
+    "primary": [
+      "fall",
+      "sports injury",
+      "motor vehicle accident",
+      "workplace injury"
+    ],
+    "secondary": [
+      "pain",
+      "swelling",
+      "bruising",
+      "limited movement",
+      "unable to bear weight"
+    ]
+  },
+  "physical": {
+    "primary": [
+      "annual physical",
+      "sports physical",
+      "employment physical",
+      "routine physical"
+    ],
+    "secondary": [
+      "no acute complaints",
+      "routine evaluation"
+    ]
+  },
+  "diarrhea": {
+    "primary": [
+      "diarrhea",
+      "loose stools",
+      "frequent bowel movements"
+    ],
+    "secondary": [
+      "abdominal cramping",
+      "nausea",
+      "vomiting",
+      "dehydration",
+      "fever"
+    ]
+  },
+  "pink-eye": {
+    "primary": [
+      "pink eye",
+      "eye redness",
+      "possible conjunctivitis"
+    ],
+    "secondary": [
+      "eye drainage",
+      "itching",
+      "burning",
+      "watery eyes",
+      "blurred vision"
+    ]
+  }
+}

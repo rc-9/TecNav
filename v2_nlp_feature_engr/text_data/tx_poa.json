@@ -1,0 +1,306 @@
+{
+  "cold/flu/fever": {
+    "treatments": [
+      "supportive care instructions provided",
+      "oral fluids and rest recommended",
+      "acetaminophen administered for fever",
+      "ibuprofen recommended for symptom relief",
+      "flu antiviral medication prescribed",
+      "COVID precautions discussed"
+    ],
+    "disposition": [
+      "ready for discharge with follow-up instructions",
+      "appropriate for outpatient management with supportive care",
+      "discharge planned with return precautions"
+    ]
+  },
+
+  "covid-test": {
+    "treatments": [
+      "isolation precautions reviewed",
+      "supportive care instructions provided",
+      "symptom management medications recommended",
+      "antiviral therapy considered"
+    ],
+    "disposition": [
+      "ready for discharge with return precautions",
+      "appropriate for outpatient management with symptom monitoring",
+      "discharge planned with isolation guidance"
+    ]
+  },
+
+  "vaccination": {
+    "treatments": [
+      "vaccine administered",
+      "post-vaccination monitoring performed",
+      "immunization counseling provided",
+      "vaccination record updated"
+    ],
+    "disposition": [
+      "cleared for discharge after observation period",
+      "appropriate for discharge after vaccine monitoring",
+      "discharge planned with routine follow-up as needed"
+    ]
+  },
+
+  "cough": {
+    "treatments": [
+      "cough suppressant prescribed",
+      "expectorant recommended",
+      "nebulizer treatment administered",
+      "bronchodilator inhaler prescribed",
+      "antibiotic therapy prescribed",
+      "supportive care instructions provided",
+      "hydration and symptom management discussed"
+    ],
+    "disposition": [
+      "ready for discharge with follow-up instructions",
+      "appropriate for outpatient symptom management",
+      "discharge planned with return precautions"
+    ]
+  },
+
+  "ear-pain": {
+    "treatments": [
+      "oral antibiotics prescribed",
+      "ear drops prescribed",
+      "pain medication recommended",
+      "warm compress instructions provided",
+      "ear irrigation performed",
+      "supportive care instructions provided"
+    ],
+    "disposition": [
+      "ready for discharge with follow-up recommendations",
+      "appropriate for outpatient management",
+      "discharge planned with symptom monitoring instructions"
+    ]
+  },
+
+  "chest-pain": {
+    "treatments": [
+      "aspirin administered",
+      "pain management provided",
+      "symptoms monitored during visit"
+    ],
+    "disposition": [
+      "requires emergency department evaluation",
+      "referred for cardiology follow-up",
+      "appropriate for discharge with strict return precautions"
+    ]
+  },
+
+  "ache/pain": {
+    "treatments": [
+      "pain medication recommended",
+      "anti-inflammatory medication prescribed",
+      "muscle relaxant prescribed",
+      "stretching and activity modification discussed",
+      "supportive care instructions provided"
+    ],
+    "disposition": [
+      "ready for discharge with activity modification instructions",
+      "appropriate for outpatient pain management",
+      "discharge planned with follow-up as needed"
+    ]
+  },
+
+  "sore-throat": {
+    "treatments": [
+      "antibiotics prescribed",
+      "pain medication recommended",
+      "salt water gargle instructions provided",
+      "hydration encouraged",
+      "supportive care provided"
+    ],
+    "disposition": [
+      "ready for discharge with supportive care instructions",
+      "appropriate for outpatient treatment",
+      "discharge planned with return precautions"
+    ]
+  },
+
+  "stomach-pain": {
+    "treatments": [
+      "oral hydration encouraged",
+      "anti-nausea medication administered",
+      "acid-reducing medication prescribed",
+      "pain management provided",
+      "dietary modifications discussed",
+      "abdominal precautions discussed"
+    ],
+    "disposition": [
+      "ready for discharge with follow-up instructions",
+      "appropriate for outpatient management",
+      "discharge planned with abdominal precautions"
+    ]
+  },
+
+  "UTI": {
+    "treatments": [
+      "oral antibiotics prescribed",
+      "urinary analgesic prescribed",
+      "hydration encouraged",
+      "urine culture follow-up planned"
+    ],
+    "disposition": [
+      "ready for discharge with follow-up instructions",
+      "appropriate for outpatient antibiotic management",
+      "discharge planned with culture follow-up"
+    ]
+  },
+
+  "lab-work": {
+    "treatments": [
+      "blood sample collected",
+      "laboratory testing completed",
+      "results reviewed with patient",
+      "additional testing ordered"
+    ],
+    "disposition": [
+      "appropriate for discharge after specimen collection",
+      "follow-up planned for laboratory results",
+      "ready for discharge with outpatient follow-up"
+    ]
+  },
+
+  "drug-test": {
+    "treatments": [
+      "urine specimen collected",
+      "screening completed",
+      "employment paperwork completed",
+      "results sent for review"
+    ],
+    "disposition": [
+      "cleared for discharge after testing completion",
+      "appropriate for discharge after specimen collection",
+      "follow-up planned pending results review"
+    ]
+  },
+
+  "weakness/dizziness": {
+    "treatments": [
+      "oral fluids provided",
+      "IV fluids administered",
+      "blood glucose checked",
+      "anti-nausea medication administered",
+      "fall precautions discussed",
+      "symptom monitoring performed"
+    ],
+    "disposition": [
+      "ready for discharge with follow-up recommendations",
+      "appropriate for outpatient monitoring",
+      "discharge planned with fall precautions"
+    ]
+  },
+
+  "rash/allergy": {
+    "treatments": [
+      "antihistamine administered",
+      "steroid medication prescribed",
+      "topical cream prescribed",
+      "allergen avoidance discussed",
+      "skin care instructions provided"
+    ],
+    "disposition": [
+      "ready for discharge with follow-up instructions",
+      "appropriate for outpatient allergy management",
+      "discharge planned with symptom monitoring"
+    ]
+  },
+
+  "headache": {
+    "treatments": [
+      "pain medication administered",
+      "anti-inflammatory medication recommended",
+      "hydration encouraged",
+      "anti-nausea medication administered",
+      "supportive care instructions provided"
+    ],
+    "disposition": [
+      "ready for discharge with supportive care instructions",
+      "appropriate for outpatient management",
+      "discharge planned with return precautions"
+    ]
+  },
+
+  "cuts/abscess": {
+    "treatments": [
+      "wound cleaned and irrigated",
+      "local anesthesia administered",
+      "laceration repaired with sutures",
+      "abscess drained",
+      "wound dressing applied",
+      "antibiotics prescribed",
+      "tetanus vaccination administered",
+      "wound care instructions provided"
+    ],
+    "disposition": [
+      "ready for discharge with wound care instructions",
+      "appropriate for outpatient wound management",
+      "discharge planned with follow-up recommendations"
+    ]
+  },
+
+  "injury/accident": {
+    "treatments": [
+      "injury evaluated",
+      "splint applied",
+      "brace applied",
+      "pain medication prescribed",
+      "ice and elevation instructions provided",
+      "range of motion exercises discussed"
+    ],
+    "disposition": [
+      "ready for discharge with orthopedic follow-up",
+      "appropriate for outpatient injury management",
+      "discharge planned with activity restrictions"
+    ]
+  },
+
+  "physical": {
+    "treatments": [
+      "physical examination completed",
+      "vaccination status reviewed",
+      "health counseling provided",
+      "screening tests ordered",
+      "sports clearance provided",
+      "employment clearance provided"
+    ],
+    "disposition": [
+      "cleared for discharge after evaluation",
+      "appropriate for routine outpatient follow-up",
+      "ready for discharge after completion of examination"
+    ]
+  },
+
+  "diarrhea": {
+    "treatments": [
+      "oral hydration encouraged",
+      "IV fluids administered",
+      "anti-diarrheal medication recommended",
+      "anti-nausea medication prescribed",
+      "dietary recommendations provided",
+      "stool testing ordered"
+    ],
+    "disposition": [
+      "ready for discharge with hydration instructions",
+      "appropriate for outpatient management",
+      "discharge planned with follow-up instructions"
+    ]
+  },
+
+  "pink-eye": {
+    "treatments": [
+      "antibiotic eye drops prescribed",
+      "lubricating eye drops recommended",
+      "eye hygiene instructions provided",
+      "warm compress instructions provided",
+      "contact precautions discussed"
+    ],
+    "disposition": [
+      "ready for discharge with eye care instructions",
+      "appropriate for outpatient ophthalmic management",
+      "discharge planned with follow-up recommendations"
+    ]
+  }
+}

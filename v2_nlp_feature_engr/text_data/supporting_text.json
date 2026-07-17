@@ -1,0 +1,87 @@
+{
+  "triage": {
+    "opening": [
+      "presents with",
+      "reports",
+      "complains of",
+      "states",
+      "arrives with"
+    ],
+    "duration_connector": [
+      "for",
+      "since",
+      "over the past",
+      "from about"
+    ],
+    "transition_words": [
+      "with",
+      "along with",
+      "associated with",
+      "also reports",
+      "also experiencing"
+    ],
+    "severity_descriptors": [
+      "mild",
+      "moderate",
+      "severe",
+      "persistent",
+      "worsening"
+    ],
+    "duration_values": [
+      "one day",
+      "two days",
+      "three days",
+      "several days",
+      "one week"
+    ],
+    "negative_connectors": [
+      "denies",
+      "without",
+      "negative for"
+    ],
+    "common_negatives": [
+      "shortness of breath",
+      "chest pain",
+      "vomiting",
+      "dizziness"
+    ]
+  },
+
+  "diagnostics": {
+    "actions": [
+      "Workup included",
+      "Evaluation included",
+      "Testing included",
+      "Diagnostic evaluation included"
+    ],
+    "positive_results": [
+      "showed no acute findings",
+      "was unremarkable",
+      "was positive",
+      "was negative",
+      "was consistent with clinical presentation"
+    ],
+    "screening_results": [
+      "was completed",
+      "was reviewed",
+      "was within normal limits",
+      "showed some abnormalities"
+    ],
+    "no_testing": [
+      "No diagnostic testing was performed"
+    ]
+    },
+
+  "treatment_plan": {
+    "actions": [
+      "Treatment included",
+      "Management included",
+      "Plan included"
+    ],
+    "disposition_actions": [
+      "Patient is",
+      "Follow-up plan includes"
+    ]
+}
+
+}
